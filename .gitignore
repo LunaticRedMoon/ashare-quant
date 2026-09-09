@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 数据（原始/中间数据不入库）
+data/*
+!data/.gitkeep
+
+# 缓存与测试
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+
+# 环境变量与密钥
+.env
+*.token
+
+# IDE
+.vscode/
+.idea/
